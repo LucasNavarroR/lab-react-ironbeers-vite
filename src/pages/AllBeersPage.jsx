@@ -19,7 +19,7 @@ const handleSearch = (event) => {
   useEffect(() => {
     
     getData();
-  }, []);
+  }, [queryInput]);
 
   const getData = async () => {
     try {
